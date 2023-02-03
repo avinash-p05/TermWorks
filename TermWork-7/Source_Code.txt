@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://www.git.edu/">KLS GIT /</a>
+            <a href="https://www.git.edu/computer-science-and-engineering/"> Computer Science Dept /</a>
+            <a href=""> 3rd Sem A div</a>
+        </li>
+    </ul>
+    <div class="container">
+        <h2 class="text-success">Pagination Example</h2>
+        <p class="tex-success">
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual
+            form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a
+            placeholder before final copy is available.</p>
+        <ul class="pagination">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

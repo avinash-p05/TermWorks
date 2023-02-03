@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidateForm</title>
+    <script>
+        function validateform(){
+            var x = document.getElementById('fname').value;
+            var y= document.getElementById('contact').value;
+            if(x==''){
+                alert("Please enter the name!!!");
+                return false;
+            }
+            if(y==''){
+                alert("Please enter the contact number!!");
+                return false;
+            }
+            if(y>10){
+                alert(" Please enter valid contact number!!");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Validate Form</h1>
+    <form action="/action_page.php" onsubmit="return validateform()" method="post">
+        Name: <input type="text" id="fname">
+        Contact No: <input type="text" id="contact">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
